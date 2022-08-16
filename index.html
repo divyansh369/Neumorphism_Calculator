@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #ebecf0;">
+    <div class="container">
+    <div class="calculator">    
+        <h1 style="color: #2d465f; margin-bottom: 10px;"><em>Calculator</em></h1>
+        <!-- <div class="calculator"> -->
+        <input class="screen" type="text" style="width: 290px;height: 57px;border-radius: 8px;margin-top:24px ;">
+        <table>
+            <tr>
+                <td><button class="operator" value="(" id="lpara">(</button></td>
+                <td><button class="operator" value=")" id="rpara">)</button></td>
+                <td><button class="operator" value="%" id="modulo">%</button></td>
+                <td><button class="operator" value="" id="clear">AC</button></td>
+            </tr>
+
+            <tr>
+                <td><button value="7" class="operand" id="7">7</button></td>
+                <td><button value="8" class="operand" id="8">8</button></td>
+                <td><button value="9" class="operand" id="9">9</button></td>
+                <td><button class="operator" value="/" id="divide">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button value="4"  class="operand" id="4">4</button></td>
+                <td><button value="5" class="operand" id="5">5</button></td>
+                <td><button value="6" class="operand" id="6">6</button></td>
+                <td><button class="operator" value="*" id="multiply">*</button></td>
+            </tr>
+            <tr>
+                <td><button value="1"  class="operand" id="1">1</button></td>
+                <td><button value="2" class="operand" id="2">2</button></td>
+                <td><button value="3" class="operand" id="3">3</button></td>
+                <td><button class="operator" value="-" id="subtract">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="0"  class="operand" id="0">0</button></td>
+                <td><button value="." class="operand" id="dot" ,style="font-size: larger;">.</button></td>
+                <td><button value="=" id="equal" style="color: rgb(255, 255, 255);font-weight: bold;font-size: medium;" >=</button></td>
+                <td><button class="operator" value="+" id="add">+</button></td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+  
+<div class="footer">
+    <p style="color: #2d465f;"><em>Made with love ❤ by The Divyansh Srivastava</em> </p>
+</div>
+
+</body>
+</html>
